@@ -53,7 +53,7 @@ const plans = [
 
 export default function Services() {
     return (
-        <section id="services" className="py-24 md:py-32 bg-[var(--background)]">
+        <section id="services" className="scroll-mt-32 py-24 md:py-40 bg-[var(--background)]">
             <div className="max-w-7xl mx-auto px-6">
 
                 {/* Header Area */}
