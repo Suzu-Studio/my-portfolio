@@ -25,6 +25,8 @@ export const metadata: Metadata = {
 // もしエラーが出る場合は import Header from "@/components/Header"; などを試してください
 import Header from "../components/Header";
 
+import { GoogleAnalytics } from '@next/third-parties/google';
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -37,6 +39,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <GoogleAnalytics gaId="G-CMQW7XFJYX" />
       </body>
     </html>
   );
