@@ -19,6 +19,9 @@ const notoSansJP = Noto_Sans_JP({
 export const metadata: Metadata = {
   title: "Portfolio | Minimal",
   description: "ミニマリストのポートフォリオ",
+  verification: {
+    google: 'TXBBPVmRXXK6ysP_6jJImCfBqtl5k1Ooi_IY7Rkrb00',
+  },
 };
 
 // ヘッダーコンポーネントのインポートパスが正しいか確認してください
