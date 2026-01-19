@@ -94,7 +94,7 @@ function WorkCard({ work, index }: { work: any, index: number }) {
             className="group block"
         >
             {/* リンク全体を包む（target="_blank" で別タブで開く） */}
-            <a href={work.url} target="_blank" rel="noopener noreferrer" className="block">
+            <a href={work.url} target="_blank" rel="noopener" className="block">
                 {/* 画像エリア */}
                 <div className="relative aspect-[4/3] bg-gray-100 overflow-hidden mb-5 border border-gray-100 shadow-sm group-hover:shadow-md transition-all">
                     <div
