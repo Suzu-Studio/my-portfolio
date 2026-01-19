@@ -37,7 +37,7 @@ const works = [
 
 export default function Works() {
     return (
-        <section id="works" className="scroll-mt-32 py-24 md:py-40 bg-[var(--background)] overflow-hidden">
+        <section id="works" className="scroll-mt-20 py-24 md:py-40 bg-[var(--background)] overflow-hidden">
             <div className="max-w-7xl mx-auto px-6">
 
                 {/* ヘッダーエリア */}
