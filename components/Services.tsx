@@ -153,7 +153,7 @@ export default function Services() {
                             </div>
 
                             {/* Action Area */}
-                            <div className="pt-6 border-t border-gray-100 flex items-center justify-between cursor-pointer">
+                            <a href="#contact" className="pt-6 border-t border-gray-100 flex items-center justify-between cursor-pointer hover:opacity-80 transition-opacity">
                                 <span className="relative text-sm font-bold text-[#262626] tracking-widest uppercase">
                                     Consult
                                     {/* ホバー時に伸びる下線アニメーション */}
@@ -167,7 +167,7 @@ export default function Services() {
                                 >
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                 </svg>
-                            </div>
+                            </a>
                         </motion.div>
                     ))}
                 </div>
