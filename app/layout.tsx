@@ -17,8 +17,8 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Minimal",
-  description: "ミニマリストのポートフォリオ",
+  title: "Suzu. | 事業の成長を支えるWeb制作パートナー",
+  description: "北海道を拠点とするWeb制作パートナー。単なるHP作成ではなく、売上と集客に繋がる「事業の基盤」を構築します。個人・中小企業のWebサイト制作・リニューアルに対応。",
   verification: {
     google: 'TXBBPVmRXXK6ysP_6jJImCfBqtl5k1Ooi_IY7Rkrb00',
   },
